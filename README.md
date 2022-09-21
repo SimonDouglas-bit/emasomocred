@@ -1,6 +1,6 @@
-# emasomocred
+# emasomocred (Codes [below](https://github.com/SimonDouglas-bit/emasomocred/files/9616385/emasomocred.zip))
 ##### Dated: April 17<sup>th</sup> 2021
-A script that using a specified convention, generates login credentials for the eMasomo platform (a moodle used for learning management). Emasomo moodle is being used by The cooperative University of Kenya
+A hacky script that using a specified convention, generates login credentials for the [eMasomo](https://emasomo.cuk.ac.ke) platform (a moodle used for learning management). [Emasomo](https://emasomo.cuk.ac.ke) moodle is being used by [The cooperative University of Kenya](https://cuk.ac.ke) for learning and administering assignments.
 ## Running the code
 
 ###### This code should be run in python3 or higher environment.
