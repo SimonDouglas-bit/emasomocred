@@ -1,6 +1,6 @@
 # emasomocred (Codes [below](https://github.com/SimonDouglas-bit/emasomocred/files/9616385/emasomocred.zip))
 ##### Dated: April 17<sup>th</sup> 2021
-A hacky script that using a specified convention, generates login credentials for the [eMasomo](https://emasomo.cuk.ac.ke) platform (a moodle used for learning management). [Emasomo](https://emasomo.cuk.ac.ke) moodle is being used by [The cooperative University of Kenya](https://cuk.ac.ke) for learning and administering assignments.
+A hacky script that using a specified convention, generates login credentials for the [e-Masomo](https://emasomo.cuk.ac.ke) platform (a moodle used for learning management). [Emasomo](https://emasomo.cuk.ac.ke) moodle is being used by [The Cooperative University of Kenya (CUK) ](https://cuk.ac.ke) for learning and administering assignments.
 ## Running the code
 
 ###### This code should be run in python3 or higher environment.
@@ -63,7 +63,7 @@ Below were my personal computer-generated credentials:
 	username: simondou
 	password: SimonDou@2022
 
-My full name as it appear in emasomo is Simon Douglas.
+My full name as it appear in emasomo is **Simon Douglas**.
 ## Findings
 ### The username
 As from the above credentials, it can be deduced that the username is
