@@ -1,4 +1,5 @@
 # emasomocred
+##### Dated: April 17<sup>th</sup> 2021
 A script that using a specified convention, generates login credentials for the eMasomo platform (a moodle used for learning management). Emasomo moodle is being used by The cooperative University of Kenya
 ## Running the code
 
@@ -21,6 +22,7 @@ Note that you may be required to install any other needed modules if they are mi
     python3.9 emasomocred.py
 
 2. You can run it using IDLE or any other relevant software in any platform
+
 ## Confidentiality
 In no event shall I be liable to anyone for special, incidental,
 collateral or consequential damages arising out of the use of
@@ -47,7 +49,7 @@ Therefore here in this context am discussing my findings on
 disclosing the login credentials for emasomo.
 
 ## Breakdown
-As I may say among the latest upgrades to the CUK emasomo website
+Among the latest upgrades to the CUK emasomo website
 was generation of new usernames and passwords. Each credential
 was emailed to its respective student email account.
 From the email it was deterministic that this credentials were
@@ -57,8 +59,8 @@ If it is a computer that generates the credentials then it must
 be following a certain pattern under circumstances in which it is
 programmed.
 Below were my personal computer-generated credentials:
-username: simondou
-password: SimonDou@2022
+	username: simondou
+	password: SimonDou@2022
 
 My full name as it appear in emasomo is Simon Douglas.
 ## Findings
@@ -74,13 +76,7 @@ first three characters of the second name,
 The password is also generated from the full name but with a
 slight modification as compared to the user name. The following
 are the rules that password follows:
-1. the first letter of the first name and the first letter of
-the second name must be uppercase,
-2.
-all other characters are lowercase,
-3.
-comprise of concatenation of the first name, followed
-by the first three characters of the second name and lastly
-@2022 string and
-4.
-no separators in concatenation.
+1. the first letter of the first name and the first letter of the second name must be uppercase,
+2. all other characters are lowercase,
+3. comprise of concatenation of the first name, followed by the first three characters of the second name and lastly @2022 string and
+4. no separators in concatenation.
