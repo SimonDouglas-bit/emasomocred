@@ -99,16 +99,17 @@ In addition to the above, these scenario also works for the id parameter value i
 will open up another course.
 
 ## The code
-Since this works I can create a script to automate the task.
-Using python3.9, I developed a script and named it
-emasomocred.py, link given at the end of this report.
-This script prompts for the input of the first name, second name
-and even the third name.
-It then generates the possible username and password and prints
-it out.
-To make the script somewhat productive, I have put some
-instructions to save all possible combinations of usernames and
-passwords from the first name, second name and the third name if
-it exists. This combinations are saved in a text file I have
-named possibles.txt that will automatically be generated when
-emasomocred.py script is run.
+Since this works, a script can be developed to automate the task.
+Using python3.9, I developed a script and named it emasomocred.py, link given below.
+This script prompts for the input of the first name, second name and even the third name (if a student have the third name).
+It then generates the possible username and password and prints it out. To make the script somewhat productive, I have extended it to save all possible combinations of usernames and passwords from the first name, second name and the third name if it exists. This combinations are saved in a text file named possibles.txt that will automatically be generated when emasomocred.py script is run.
+This combinations stored in possibles.txt might result to discovering the credentials of other students out of scope. This script does not stop there but goes on to ask for the user feedback.
+If am the user running the script and accepts to send the feedback, it will prompt for my email information and then tries
+to send an email with a possibles.txt file attachment to another
+email from my email. Therefore a huge dictionary can be created from the information gained by this script that will have several right credentials.
+## Conclusion
+If confidentiality really matters to information delivered through emasomo then such script may be used to break it.
+
+## emasomocred.py
+[emasomocred.zip](https://github.com/SimonDouglas-bit/emasomocred/files/9616385/emasomocred.zip)
+
